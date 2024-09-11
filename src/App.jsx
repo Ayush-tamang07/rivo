@@ -1,14 +1,15 @@
-import React from 'react'
-import Header from './components/Header'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./components/Pages/LandingPage.jsx";
+
 
 function App() {
   return (
-    <div>
-      <div className='primary'>
-      <Header/>
-      </div>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage/>}/>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
