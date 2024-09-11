@@ -3,6 +3,7 @@ import Header from "../Header.jsx";
 import Hero from "../Hero.jsx";
 import BestSelling from "../BestSelling";
 import OurProduct from "../OurProduct.jsx";
+import ExclusiveOffer from "../ExclusiveOffer.jsx";
 
 
 function LandingPage() {
@@ -15,6 +16,7 @@ function LandingPage() {
       <div className="flex flex-col items-center">
         <BestSelling />
         <OurProduct/>
+        <ExclusiveOffer/>
       </div>
     </div>
   );
