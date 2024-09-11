@@ -5,7 +5,7 @@ function ExclusiveOffer() {
     <div className='primary'>
         <img src="" alt="" />
         <div>
-            
+            <h1>hello</h1>
         </div>
     </div>
   )
