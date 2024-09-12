@@ -4,7 +4,7 @@ import { IoBagOutline } from "react-icons/io5";
 function Header() {
   return (
     <header className="flex items-center justify-around">
-      <h1 className="text-5xl font-bold playfair-display">Rivo</h1>
+      <h1 className="text-5xl font-bold playfair-display primary-text">Rivo</h1>
       <nav className="">
         <ul className="flex gap-11">
           <li>Home</li>
