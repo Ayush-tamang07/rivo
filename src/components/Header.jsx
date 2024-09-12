@@ -14,7 +14,7 @@ function Header() {
         </ul>
       </nav>
       <div className="flex items-center gap-10">
-      <IoBagOutline size={30}/>
+      <IoBagOutline className="text-[#224F34] text-5xl"/>
       <button className="border-2 border-[#224F34] py-2 px-6 text-xl">Login</button>
       </div>
     </header>

@@ -6,11 +6,12 @@ import OurProduct from "../OurProduct.jsx";
 import ExclusiveOffer from "../ExclusiveOffer.jsx";
 import ForYou from "../ForYou.jsx";
 import Footer from "../Footer.jsx";
+import FeedBack from "../FeedBack.jsx";
 
 
 function LandingPage() {
   return (
-    <div className="">
+    <main className="">
       <div className="primary overall-text pt-4 pb-1">
         <Header />
         <Hero />
@@ -20,9 +21,10 @@ function LandingPage() {
         <OurProduct/>
         <ExclusiveOffer/>
         <ForYou/>
+        <FeedBack/>
         <Footer/>
       </div>
-    </div>
+    </main>
   );
 }
 
