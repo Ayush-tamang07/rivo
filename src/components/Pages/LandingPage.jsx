@@ -5,6 +5,7 @@ import BestSelling from "../BestSelling";
 import OurProduct from "../OurProduct.jsx";
 import ExclusiveOffer from "../ExclusiveOffer.jsx";
 import ForYou from "../ForYou.jsx";
+import Footer from "../Footer.jsx";
 
 
 function LandingPage() {
@@ -19,6 +20,7 @@ function LandingPage() {
         <OurProduct/>
         <ExclusiveOffer/>
         <ForYou/>
+        <Footer/>
       </div>
     </div>
   );

@@ -12,8 +12,8 @@ function ForYouCard() {
             className="object-cover w-full h-full"
           />
         </div>
-        <h1 className="text-center font-semibold text-2xl">Accessories</h1>
-        <p className="text-center">
+        <h1 className="text-center font-semibold text-2xl my-2">Accessories</h1>
+        <p className="text-center p-2">
           Complete your ensemble with designer accessories such as handbags,
           scarves, belts, and hats.
         </p>
