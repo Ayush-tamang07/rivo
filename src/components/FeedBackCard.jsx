@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function FeedBackCard() {
+function FeedBackCard(props) {
   return (
-    <div className='bg-red-300 w-96 p-3'>
-        <h1>"</h1>
-        <h1>Emily Wilson</h1>
-        <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+    <div className="bg-white w-96 p-3 shadow-lg">
+      <h1 className="text-4xl font-times primary-text">"</h1>
+      <h1 className="roboto-slab primary-text font-bold text-2xl">
+        {props.username}
+      </h1>
+      <p>{props.description}</p>
     </div>
-  )
+  );
 }
 
-export default FeedBackCard
+export default FeedBackCard;
