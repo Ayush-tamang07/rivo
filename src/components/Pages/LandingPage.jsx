@@ -1,29 +1,34 @@
-import React from "react";
-import Header from "../Header.jsx";
-import Hero from "../Hero.jsx";
-import BestSelling from "../BestSelling";
-import OurProduct from "../OurProduct.jsx";
-import ExclusiveOffer from "../ExclusiveOffer.jsx";
-import ForYou from "../ForYou.jsx";
-import Footer from "../Footer.jsx";
-import FeedBack from "../FeedBack.jsx";
-
+import {
+  Header,
+  Hero,
+  BestSelling,
+  OurProduct,
+  ExclusiveOffer,
+  ForYou,
+  FeedBack,
+  Footer,
+} from "./component.js";
 
 function LandingPage() {
   return (
-    <main className="">
+    <main className="w-full">
+      {/* Header and Hero section */}
       <div className="primary overall-text pt-4 pb-1">
         <Header />
         <Hero />
       </div>
-      <div className="flex flex-col items-center">
+
+      {/* Main content - stacked on smaller screens, aligned center */}
+      <div className="flex flex-col items-center space-y-8 md:space-y-12">
         <BestSelling />
-        <OurProduct/>
-        <ExclusiveOffer/>
-        <ForYou/>
-        <FeedBack/>
-        <Footer/>
+        <OurProduct />
+        <ExclusiveOffer />
+        <ForYou />
+        <FeedBack />
       </div>
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }

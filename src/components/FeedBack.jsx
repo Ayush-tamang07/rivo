@@ -16,7 +16,7 @@ function FeedBack() {
       </h1>
       <div className="grid grid-cols-3 gap-4">
         <FeedBackCard username="Emily Wilson" description={one} />
-        <FeedBackCard username="Sarah Thompson" description={two} />
+        <FeedBackCard username="Sarah Thompson" description={two}/>
         <FeedBackCard username="Olivia Martinez" description={three} />
       </div>
       <div className="flex items-center justify-center gap-4 mt-16">
