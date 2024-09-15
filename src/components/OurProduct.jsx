@@ -2,7 +2,7 @@ import React from "react";
 import RegularFitLongSleeveTop from "../assets/RegularFitLongSleeveTop.png";
 import BlackCropTailoredJacket from "../assets/BlackCropTailoredJacket.png"
 import TexturedSunSetShirt from "../assets/TexturedSunSetShirt.png"
-import CardComponent from "./CardComponent";
+import CardComponent from "./ui/card/CardComponent";
 
 function OurProduct() {
   return (

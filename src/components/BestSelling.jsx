@@ -1,5 +1,5 @@
 import React from "react";
-import BestSellingCard from "./BestSellingCard.jsx";
+import BestSellingCard from "./ui/card/BestSellingCard.jsx";
 import RegularFitLongSleeveTop from "../assets/RegularFitLongSleeveTop.png";
 import BlackCropTailoredJacket from "../assets/BlackCropTailoredJacket.png";
 import TexturedSunSetShirt from "../assets/TexturedSunSetShirt.png";
@@ -9,7 +9,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function BestSelling() {
   return (
     <section className="flex flex-col items-center my-20">
-      <h1 className="roboto-slab text-5xl primary-text mb-5">Best Selling</h1>
+      <h1 className="roboto-slab text-5xl prim ary-text mb-5">Best Selling</h1>
       <p className="overall-text mb-10">
         Get in on the trend with our curated selection of best-selling styles.
       </p>
