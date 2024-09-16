@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Exclusive from "../assets/exclusive-offer-img.png";
+import Exclusive from "../../../assets/exclusive-offer-img.png";
 
 function ExclusiveOffer() {
   const calculateTimeLeft = () => {

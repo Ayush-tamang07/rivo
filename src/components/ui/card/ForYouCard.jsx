@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../assets/BlackCropTailoredJacket.png";
+import images from "../../../assets/BlackCropTailoredJacket.png";
 
 function ForYouCard() {
   return (

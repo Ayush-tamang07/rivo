@@ -1,8 +1,9 @@
 import React from "react";
-import RegularFitLongSleeveTop from "../assets/RegularFitLongSleeveTop.png";
-import BlackCropTailoredJacket from "../assets/BlackCropTailoredJacket.png"
-import TexturedSunSetShirt from "../assets/TexturedSunSetShirt.png"
-import CardComponent from "./ui/card/CardComponent";
+import RegularFitLongSleeveTop from "../../../assets/RegularFitLongSleeveTop.png";
+import BlackCropTailoredJacket from "../../../assets/BlackCropTailoredJacket.png"
+import TexturedSunSetShirt from "../../../assets/TexturedSunSetShirt.png"
+import CardComponent from "../card/CardComponent.jsx";
+
 
 function OurProduct() {
   return (

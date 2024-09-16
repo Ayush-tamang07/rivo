@@ -1,5 +1,5 @@
 import React from "react";
-import FeedBackCard from "./ui/card/FeedBackCard";
+import FeedBackCard from "../card/FeedBackCard.jsx";
 
 const one =
   "The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!";

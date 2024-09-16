@@ -1,8 +1,8 @@
 import React from "react";
-import BestSellingCard from "./ui/card/BestSellingCard.jsx";
-import RegularFitLongSleeveTop from "../assets/RegularFitLongSleeveTop.png";
-import BlackCropTailoredJacket from "../assets/BlackCropTailoredJacket.png";
-import TexturedSunSetShirt from "../assets/TexturedSunSetShirt.png";
+import BestSellingCard from "../card/BestSellingCard.jsx";
+import RegularFitLongSleeveTop from "../../../assets/RegularFitLongSleeveTop.png";
+import BlackCropTailoredJacket from "../../../assets/BlackCropTailoredJacket.png";
+import TexturedSunSetShirt from "../../../assets/TexturedSunSetShirt.png";
 // import BestSellingCard from './BestSellingCard.jsx'
 import { AiOutlineArrowRight } from "react-icons/ai";
 

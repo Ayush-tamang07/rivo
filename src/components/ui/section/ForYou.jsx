@@ -1,5 +1,5 @@
 import React from 'react'
-import ForYouCard from './ui/card/ForYouCard'
+import ForYouCard from '../card/ForYouCard.jsx'
 
 function ForYou() {
   return (
