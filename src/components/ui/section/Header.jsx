@@ -7,10 +7,10 @@ function Header() {
       <h1 className="text-5xl font-bold playfair-display primary-text">Rivo</h1>
       <nav className="">
         <ul className="flex gap-11 primary-text">
-          <li>Home</li>
-          <li>Shop</li>
-          <li>Features</li>
-          <li>Contact</li>
+          <li className="text-[18px] cursor-pointer hover:text-primary-hover">Home</li>
+          <li className="text-[18px] cursor-pointer hover:text-primary-hover">Shop</li>
+          <li className="text-[18px] cursor-pointer hover:text-primary-hover">Features</li>
+          <li className="text-[18px] cursor-pointer hover:text-primary-hover">Contact</li>
         </ul>
       </nav>
       <div className="flex items-center gap-10">

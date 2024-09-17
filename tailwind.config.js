@@ -9,7 +9,8 @@ export default {
       colors: {
         'primary':"#224F34",
         'secondary':"#A9D4BA",
-        'highlight':"#A3F3BE"
+        'highlight':"#A3F3BE",
+        'primary-hover': '#37C87A' 
       }
     },
   },
