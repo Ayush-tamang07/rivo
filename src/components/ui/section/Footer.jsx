@@ -5,7 +5,7 @@ import { CiTwitter } from "react-icons/ci";
 
 function Footer() {
   return (
-    <footer className="bg-[#224F34] w-full flex flex-col p-8 items-center">
+    <footer className="bg-[#224F34] w-full flex flex-col p-8 items-center mt-7">
       <div className="w-full flex justify-around mb-8">
         <div>
           <h1 className="text-white playfair-display text-5xl font-semibold mb-6">
@@ -18,7 +18,7 @@ function Footer() {
             <CiTwitter className="text-[#A3F3BE] text-3xl" />
           </div>
         </div>
-        <div className="flex text-[#C2EFD4] gap-16">
+        <div className="flex text-[#C2EFD4] gap-28">
           <ul className="leading-8">
             <li className="text-white roboto-slab">SHOP</li>
             <li>Products</li>

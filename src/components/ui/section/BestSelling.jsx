@@ -8,7 +8,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 function BestSelling() {
   return (
-    <section className="flex flex-col items-center my-20">
+    <section className="flex flex-col items-center mt-20">
       <h1 className="roboto-slab text-5xl prim ary-text mb-5">Best Selling</h1>
       <p className="overall-text mb-10">
         Get in on the trend with our curated selection of best-selling styles.
@@ -33,7 +33,7 @@ function BestSelling() {
           img={TexturedSunSetShirt}
         />
       </div>
-      <button className="border-2 border-[#224F34] py-3 px-8 text-2xl text-[#224F34] flex items-center">
+      <button className="border-2 border-[#224F34] py-3 px-8 text-2xl text-[#224F34] flex items-center my-8">
         see all
         <AiOutlineArrowRight className="ml-2" />
       </button>
