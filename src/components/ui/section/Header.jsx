@@ -6,7 +6,7 @@ function Header() {
     <header className="flex items-center justify-around">
       <h1 className="text-5xl font-bold playfair-display primary-text">Rivo</h1>
       <nav className="">
-        <ul className="flex gap-11">
+        <ul className="flex gap-11 primary-text">
           <li>Home</li>
           <li>Shop</li>
           <li>Features</li>
@@ -14,8 +14,8 @@ function Header() {
         </ul>
       </nav>
       <div className="flex items-center gap-10">
-      <IoBagOutline className="text-[#224F34] text-4xl"/>
-      <button className="border-2 border-[#224F34] py-2 px-5 text-xl">Login</button>
+      <IoBagOutline className="text-primary text-4xl"/>
+      <button className="border-2 border-primary py-2 px-5 text-xl">Login</button>
       </div>
     </header>
   );

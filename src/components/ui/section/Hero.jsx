@@ -10,7 +10,7 @@ function Hero() {
           Explore our curated collection of stylish <br /> clothing and
           accessories tailored to your <br /> unique taste.
         </p>
-        <button className="text-white bg-[#224F34] py-3 px-4 shadow-xl my-3">Explore Now</button>
+        <button className="text-white bg-primary py-3 px-4 shadow-xl my-3">Explore Now</button>
       </div>
       <div className="bg-[#6BC785] rounded-tl-[90px] rounded-br-[90px] rounded-tr-[20px] rounded-bl-[20px]">
         <img src={image} alt="image" width={420} />

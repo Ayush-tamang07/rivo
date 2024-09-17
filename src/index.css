@@ -16,6 +16,9 @@
 .primary {
   @apply bg-[#C2EFD4];
 }
+.secondary {
+  @apply bg-[#224F34];
+}
 
 :root {
   font-family: "Poppins", system-ui;

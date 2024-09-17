@@ -21,11 +21,11 @@ function FeedBack() {
       </div>
       <div className="flex items-center justify-center gap-4 mt-16">
         <button
-          className="px-6 py-3 bg-white rounded-lg text-[#224F34] shadow-md text-lg"
+          className="px-6 py-3 bg-white rounded-lg text-primary shadow-md text-lg"
         >
           {"<"}
         </button>
-        <button className="px-6 py-3 bg-[#C2EFD4] rounded-lg text-[#224F34] shadow-md text-lg">
+        <button className="px-6 py-3 bg-[#C2EFD4] rounded-lg text-primary shadow-md text-lg">
           {">"}
         </button>
       </div>

@@ -6,9 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'times': ['Times New Roman'],
-      },
+      colors: {
+        'primary':"#224F34",
+        'secondary':"#A9D4BA",
+        'highlight':"#A3F3BE"
+      }
     },
   },
   plugins: [],

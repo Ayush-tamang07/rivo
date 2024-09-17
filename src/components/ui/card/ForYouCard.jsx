@@ -5,7 +5,7 @@ function ForYouCard() {
   return (
     <div className="flex flex-col">
       <div className="w-[300px]">
-        <div className="bg-[#A9D4BA] w-72 h-96 overflow-hidden">
+        <div className="bg-secondary w-72 h-96 overflow-hidden">
           <img
             src={images}
             alt="image"

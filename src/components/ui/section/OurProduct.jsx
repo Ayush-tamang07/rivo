@@ -8,7 +8,7 @@ import CardComponent from "../card/CardComponent.jsx";
 function OurProduct() {
   return (
     <section>
-      <h1 className="roboto-slab text-5xl primary-text mb-5 text-center">Our Products</h1>
+      <h1 className="roboto-slab text-5xl text-primary mb-5 text-center">Our Products</h1>
       <nav className="">
         <ul className="flex space-x-20 justify-center my-14">
             <li>SALE</li>
