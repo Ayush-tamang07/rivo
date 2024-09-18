@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="flex justify-center items-center my-20">
       <div className="max-w-[800px] mx-24 my-5">
-        <p className="text-7xl text-start rufina-bold primary-text my-5">Discover and  <br />Find Your Own  <br />Fashion!</p>
+        <p className="text-7xl text-start rufina-bold text-primary my-5">Discover and  <br />Find Your Own  <br />Fashion!</p>
         <p className="leading-8 text-start my-3 text-text1">
           Explore our curated collection of stylish <br /> clothing and
           accessories tailored to your <br /> unique taste.
@@ -18,5 +18,4 @@ function Hero() {
     </section>
   );
 }
-
 export default Hero;
