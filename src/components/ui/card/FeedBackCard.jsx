@@ -9,7 +9,7 @@ function FeedBackCard(props) {
       <h1 className="roboto-slab primary-text font-bold text-2xl my-4">
         {props.username}
       </h1>
-      <p>{props.description}</p>
+      <p className="text-[#6F6F6F]">{props.description}</p>
     </div>
   );
 }

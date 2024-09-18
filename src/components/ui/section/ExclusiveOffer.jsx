@@ -3,7 +3,7 @@ import Exclusive from "../../../assets/exclusive-offer-img.png";
 
 function ExclusiveOffer() {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2024-09-17') - +new Date();
+    const difference = +new Date('2024-09-25') - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {

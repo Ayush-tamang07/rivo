@@ -10,7 +10,7 @@ function BestSelling() {
   return (
     <section className="flex flex-col items-center mt-20">
       <h1 className="roboto-slab text-5xl primary-text mb-5">Best Selling</h1>
-      <p className="overall-text mb-10">
+      <p className="overall-text mb-10 text-primary">
         Get in on the trend with our curated selection of best-selling styles.
       </p>
       <div className="flex gap-6">
