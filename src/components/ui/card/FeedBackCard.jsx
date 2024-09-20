@@ -1,5 +1,6 @@
 import React from "react";
-import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import { BiSolidQuoteAltLeft } from "../../icons.js";
+
 
 
 function FeedBackCard(props) {

@@ -1,6 +1,6 @@
 import React from "react";
 // import RegularFitLongSleeveTop from "../assets/RegularFitLongSleeveTop.png";
-import { MdOutlineStar } from "react-icons/md";
+import { MdOutlineStar } from "../../icons.js";
 
 function BestSellingCard(props) {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import images from "../../../assets/BlackCropTailoredJacket.png";
 
 function ForYouCard() {

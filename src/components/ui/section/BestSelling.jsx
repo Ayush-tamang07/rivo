@@ -4,7 +4,7 @@ import RegularFitLongSleeveTop from "../../../assets/RegularFitLongSleeveTop.png
 import BlackCropTailoredJacket from "../../../assets/BlackCropTailoredJacket.png";
 import TexturedSunSetShirt from "../../../assets/TexturedSunSetShirt.png";
 // import BestSellingCard from './BestSellingCard.jsx'
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight } from "../../icons.js";
 
 function BestSelling() {
   return (

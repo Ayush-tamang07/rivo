@@ -1,4 +1,3 @@
-import React from "react";
 import RegularFitLongSleeveTop from "../../../assets/RegularFitLongSleeveTop.png";
 import BlackCropTailoredJacket from "../../../assets/BlackCropTailoredJacket.png"
 import TexturedSunSetShirt from "../../../assets/TexturedSunSetShirt.png"

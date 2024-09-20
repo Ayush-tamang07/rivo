@@ -1,4 +1,3 @@
-import React from "react";
 import FeedBackCard from "../card/FeedBackCard.jsx";
 
 const one =

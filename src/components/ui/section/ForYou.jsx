@@ -1,4 +1,3 @@
-import React from 'react'
 import ForYouCard from '../card/ForYouCard.jsx'
 
 function ForYou() {

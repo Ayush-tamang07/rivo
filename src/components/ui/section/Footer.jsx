@@ -1,7 +1,5 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { CiFacebook } from "react-icons/ci";
-import { CiTwitter } from "react-icons/ci";
+import { FaInstagram, CiFacebook, CiTwitter } from "../../icons.js";
 
 function Footer() {
   return (
